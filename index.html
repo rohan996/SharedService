@@ -19,6 +19,8 @@
                 <select ng-model="queryBy">
                     <option value="$"></option>
                     <option value="name">NAME</option>
+                    <option value="email">EMAIL</option>
+                    <option value="username">USERNAME</option>
                 </select>   
             </td>
         </tr>
@@ -31,6 +33,8 @@
             </tr>
             <tr ng-repeat="emp in employees | filter:query">
                 <td>{{emp.name}}</td>
+                <td>{{emp.email}}</td>
+                <td>{{emp.username}}</td>
             </tr>
         </table>
     </div>
