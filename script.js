@@ -6,12 +6,12 @@ var employeeApp = angular.module("EmployeeApp",[]);
       {
         "name" : "abc",
         "username" : "abc",
-        "email id" : "abc@gmail.com"
+        "emailid" : "abc@gmail.com"
       },
       {
         "name" : "xyz",
         "username" : "xyz",
-        "email id" : "xyz@gmail.com"
+        "emailid" : "xyz@gmail.com"
       }
     ];
     $scope.orderProp="name";                
